@@ -424,6 +424,7 @@ span {
   flex-direction: row;
   justify-content: start;
   align-items: center;
+background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
 }
 .left-project {
   width: 100%;
@@ -503,6 +504,7 @@ span {
   flex-direction: row;
   justify-content: start;
   align-items: center;
+  background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
 }
 .left-project-two {
   width: 100%;
