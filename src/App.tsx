@@ -1,5 +1,5 @@
 import Header from "./components/body/Header";
-import Body from "./components/body/Body";
+import Top from "./components/body/Top";
 import About from "./components/body/About";
 import Experience from "./components/body/Experience";
 import Jobs from "./components/body/Jobs";
@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Header />
       <div className="bg-body">
-        <Body />
+        <Top />
         <About />
         <Experience />
         <Jobs />

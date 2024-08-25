@@ -1,7 +1,7 @@
-import arrow from "../../assets/arrow.svg";
+import arrow from "../../assets/Arrow.svg";
 import me from "../../assets/Me.svg";
 import ellipseFive from "../../assets/Ellipse 5.svg";
-const Body = () => {
+const Top = () => {
   return (
     <section className="body">
       <div className="hello-txt">
@@ -29,4 +29,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default Top;
