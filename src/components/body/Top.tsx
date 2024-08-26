@@ -22,7 +22,7 @@ const Top = () => {
             </span>
             ...
           </h1>
-          <p>Because if the design doesn’t captivate, what else will?</p>
+          <p>Because if the design doesn't captivate, what else will?</p>
         </div>
       </div>
     </section>
