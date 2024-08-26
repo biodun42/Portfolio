@@ -42,12 +42,12 @@ const Projects = () => {
             <p>Featured Project</p>
             <h1>Photographer Portfolio</h1>
           </div>
-          <div className="glass-like">
+          <div className="glass-like-two">
             <button>
             Unveil the beauty of the world with Damien Lens. Dive into a collection of captivating photographs that tell stories beyond words, spanning from urban street scenes to serene nature landscapes. Browse through our high-definition gallery, learn about the inspiration behind each photo, and gain insights into the photographer's perspective.
             </button>
           </div>
-          <div className="cursor">
+          <div className="cursor-two">
             <img src={cursor} alt="" />
             <img src={cursor} alt="" />
           </div>

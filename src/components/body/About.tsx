@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className="bottom-about">
         <p>
-          As a dedicated frontend developer with over 3 years of experience, I
+          As a dedicated frontend developer with over 2 years of experience, I
           specialize in crafting intuitive and visually striking user interfaces
           that seamlessly bridge user expectations and business objectives. My
           focus is on turning complex problems into simple, elegant solutions

@@ -231,16 +231,16 @@
     width: 100%;
     max-width: 100%;
   }
+  .glass-like-two button{
+    width: 100%;
+    max-width: 100%;
+  }
   .body {
     align-items: center;
     justify-content: center;
   }
   .me-image {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .about {
     align-items: center;
     justify-content: center;
   }
@@ -327,9 +327,6 @@
 @media screen and (max-width: 637px) {
   .all-card {
     grid-template-columns: 1fr;
-  }
-  .about p{
-    text-align: center;
   }
 }
 
