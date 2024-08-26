@@ -174,14 +174,8 @@ span {
 }
 
 .card {
-  background: linear-gradient(
-    110deg,
-    #190634 19.95%,
-    #38126d 67.64%,
-    #4b1b95 107.08%,
-    #38126d 156.61%,
-    #251043 183.21%
-  );  backdrop-filter: blur(10px);
+  background: rgba(19, 4, 40, 0.7);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
   display: flex;
@@ -241,7 +235,6 @@ span {
   transform: translateY(-3px);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
   transform: scale(0.95);
-
 }
 
 .card-details button a {
@@ -252,9 +245,6 @@ span {
   text-decoration: none;
   text-transform: uppercase;
 }
-
-
-
 
 /* Skills */
 .jobs {
@@ -381,7 +371,7 @@ span {
   height: 190px;
   position: relative;
   z-index: 1;
-  animation: rotateScaleAndPulse 12s infinite ease-in-out; 
+  animation: rotateScaleAndPulse 12s infinite ease-in-out;
   transition: transform 0.8s ease, filter 0.8s ease;
 }
 
@@ -430,7 +420,6 @@ span {
   }
 }
 
-
 /* Projects */
 .project {
   width: 100%;
@@ -448,7 +437,11 @@ span {
   flex-direction: row;
   justify-content: start;
   align-items: center;
-background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
 }
 .left-project {
   width: 100%;
@@ -476,7 +469,7 @@ background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.
   line-height: normal;
   letter-spacing: 0.68px;
 }
-.glass-like{
+.glass-like {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -503,7 +496,7 @@ background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.
   max-width: 550px;
   background-blend-mode: overlay, normal;
 }
-.glass-like-two{
+.glass-like-two {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -568,7 +561,11 @@ background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
 }
 .left-project-two {
   width: 100%;
@@ -636,7 +633,7 @@ background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.
   letter-spacing: 0.3px;
   max-width: 680px;
 }
-.links{
+.links {
   display: flex;
   flex-direction: row;
   justify-content: center;
