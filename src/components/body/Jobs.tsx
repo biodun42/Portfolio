@@ -7,21 +7,14 @@ import lineTwo from "../../assets/line2.svg";
 import lineThree from "../../assets/line3.svg";
 import lineFour from "../../assets/line4.svg";
 import glowing from "../../assets/Glowing-icon.svg";
-import { useState } from "react";
 
 const Jobs = () => {
-  const [isGlowing, setIsGlowing] = useState(false);
-
-  const handleClick = () => {
-    setIsGlowing(!isGlowing);
-  };
   return (
     <section className="jobs">
       <h1>
-        I'm currently looking to join a <span>cross-functional</span> team
+        I'm currently looking to join a <span>cross-functional</span> team that
+        values improving people's lives through accessible design
       </h1>
-      <h2>that values improving people's lives through accessible design </h2>
-
       <div className="icons">
         <div className="each-icon">
           <div></div>
@@ -46,9 +39,9 @@ const Jobs = () => {
         <img className="line-java" src={lineThree} alt="" />
         <img className="line-css" src={lineFour} alt="" />
       </div>
-      <div className="glowing-box" onClick={handleClick}>
-        <div className={`box ${isGlowing ? "active-glow" : ""}`}></div>
-        <img src={glowing} alt="" className={isGlowing ? "active-glow" : ""} />
+      <div className="glowing-box">
+        <div className="box"></div>
+        <img src={glowing} alt="" />
       </div>
     </section>
   );

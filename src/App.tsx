@@ -5,7 +5,8 @@ import Experience from "./components/body/Experience";
 import Jobs from "./components/body/Jobs";
 import Projects from "./components/body/Projects";
 import Contact from "./components/body/Contact";
-import './components/css/Body.css'
+import "./components/css/Body.css";
+import "./components/css/Responsiveness.css";
 
 const App = () => {
   return (

@@ -44,8 +44,7 @@ const Projects = () => {
           </div>
           <div className="glass-like">
             <button>
-            DAMIEN: Capture Moments with Luxe Lens
-            Experience the art of photography with Luxe Lens. Explore a curated collection of stunning images across various genres, from landscapes to portraits. View high-resolution photos, learn about the stories behind each shot, and discover the photographer's unique style. Create a personalized gallery, share your favorite images, and connect with the photographer to discuss commissions and projects. Elevate your visual experience with Luxe Lens.
+            Unveil the beauty of the world with Damien Lens. Dive into a collection of captivating photographs that tell stories beyond words, spanning from urban street scenes to serene nature landscapes. Browse through our high-definition gallery, learn about the inspiration behind each photo, and gain insights into the photographer's perspective.
             </button>
           </div>
           <div className="cursor">

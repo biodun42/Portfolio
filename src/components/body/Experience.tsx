@@ -9,47 +9,47 @@ const Experience = () => {
       <h1>Work Experience</h1>
       <div className="all-card">
         <div className="card">
-          <img src={cardOneImg} alt="" />
+          <img src={cardOneImg} alt="Project Screenshot 1" />
           <div className="card-details">
-            <h1>CIB on the mobile</h1>
+            <h1>Responsive Web Design</h1>
             <p>
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
+              Developed a fully responsive website using modern CSS techniques
+              to ensure seamless display across all devices screen sizes.
             </p>
-            <button>LEARN MORE</button>
+            <button><a href="https://nft-marketplace-cyan-theta.vercel.app/">View Project</a></button>
           </div>
         </div>
         <div className="card">
-          <img src={cardTwoImg} alt="" />
+          <img src={cardTwoImg} alt="Project Screenshot 2" />
           <div className="card-details">
-            <h1>CIB on the mobile</h1>
+            <h1>JavaScript Components</h1>
             <p>
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
+              Created dynamic and interactive web components using JavaScript,
+              enhancing user engagement and functionality.
             </p>
-            <button>LEARN MORE</button>
+            <button><a href="https://luxe-aisle-ecommerce.vercel.app/">View Project</a></button>
           </div>
         </div>
         <div className="card">
-          <img src={cardThreeImg} alt="" />
+          <img src={cardThreeImg} alt="Project Screenshot 3" />
           <div className="card-details">
-            <h1>CIB on the mobile</h1>
+            <h1>React App Development</h1>
             <p>
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
+              Built a single-page application using React, demonstrating
+              component-based architecture and state management.
             </p>
-            <button>LEARN MORE</button>
+            <button><a href="https://sushi-page-with-react.vercel.app/">View Project</a></button>
           </div>
         </div>
         <div className="card">
-          <img src={cardFourImg} alt="" />
+          <img src={cardFourImg} alt="Project Screenshot 4" />
           <div className="card-details">
-            <h1>CIB on the mobile</h1>
+            <h1>API Integration</h1>
             <p>
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
+              Implemented API integration to fetch and display real-time data,
+              enhancing the user experience with up-to-date information.
             </p>
-            <button>LEARN MORE</button>
+            <button><a href="https://ip-address-locator-rose.vercel.app/">View Project</a></button>
           </div>
         </div>
       </div>

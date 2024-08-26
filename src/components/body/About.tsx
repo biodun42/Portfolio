@@ -1,12 +1,10 @@
-import fb from "../../assets/fb.svg";
 const About = () => {
   return (
     <section className="about-sec">
       <div className="top-about">
         <h1>I'm a Software Engineer.</h1>
         <p className="inline-fb">
-          Currently, I'm a Front-end Engineer at <img src={fb} alt="" />{" "}
-          Facebook,
+          Currently, I'm a Front-end Engineer at SQI
         </p>
       </div>
       <div className="bottom-about">

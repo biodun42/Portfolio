@@ -1,0 +1,405 @@
+@media screen and (max-width: 1290px) {
+  html{
+    scrollbar-width: none;
+  }
+  .card {
+    padding: 20px;
+  }
+  header {
+    padding: 18px 80px;
+  }
+  .body {
+    padding: 60px 80px;
+  }
+  .about-sec {
+    padding: 60px 80px;
+  }
+  .experience {
+    padding: 60px 80px;
+  }
+  .jobs {
+    padding: 30px 80px 70px 80px;
+  }
+  .project {
+    padding: 100px 80px;
+  }
+  .contact {
+    padding: 60px 80px;
+  }
+}
+
+@media screen and (max-width: 1169px) {
+  .experience {
+    background-image: radial-gradient(
+      40% 30% at 50% 50%,
+      #763cac 0%,
+      rgba(50, 15, 133, 0) 100%
+    );
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  header {
+    padding: 18px 60px;
+  }
+  .body {
+    padding: 60px 60px;
+  }
+  .about-sec {
+    padding: 60px 60px;
+  }
+  .experience {
+    padding: 60px 60px;
+  }
+  .jobs {
+    padding: 30px 60px 70px 60px;
+  }
+  .project {
+    padding: 100px 60px;
+  }
+  .contact {
+    padding: 60px 60px;
+  }
+}
+
+@media screen and (max-width: 1106px) {
+  .each-project {
+    gap: 10px;
+  }
+  .left-project {
+    width: 100%;
+  }
+  .right-project {
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 35px;
+  }
+  .right-project a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .each-project-two {
+    gap: 10px;
+  }
+  .left-project-two {
+    width: 100%;
+    margin: 0;
+  }
+  .right-project-two {
+    margin-top: 35px;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  .right-project-two a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .glass-like button {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .about h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  header {
+    padding: 18px 30px;
+  }
+  .body {
+    padding: 60px 30px;
+  }
+  .about-sec {
+    padding: 60px 30px;
+  }
+  .experience {
+    padding: 60px 30px;
+  }
+  .jobs {
+    padding: 30px 30px 70px 30px;
+  }
+  .project {
+    padding: 100px 30px;
+  }
+  .contact {
+    padding: 60px 30px;
+  }
+  .all-card {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 877px) {
+  .about-sec {
+    gap: 30px;
+  }
+  .top-about h1 {
+    font-size: 40px;
+  }
+  .experience > h1 {
+    font-size: 40px;
+  }
+  .top-about p {
+    font-size: 18px;
+  }
+  .bottom-about p {
+    font-size: 18px;
+  }
+  .about h4 {
+    font-size: 18px;
+  }
+  .about h1 {
+    font-size: 35px;
+  }
+  .about p {
+    text-align: left;
+  }
+  .hello-txt h1 {
+    font-size: 20px;
+  }
+  .ellipse5 {
+    width: 180px;
+  }
+  .project {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 804px) {
+  header {
+    padding: 18px 1rem;
+  }
+  .body {
+    padding: 60px 1rem;
+  }
+  .about-sec {
+    padding: 60px 1rem;
+  }
+  .experience {
+    padding: 60px 1rem;
+  }
+  .jobs {
+    padding: 30px 1rem 70px 1rem;
+  }
+  .project {
+    padding: 100px 1rem;
+  }
+  .contact {
+    padding: 60px 1rem;
+  }
+  .left-project h1 {
+    font-size: 25px;
+  }
+  .glass-like button {
+    font-size: 15px;
+  }
+  .left-project-two h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  header ul li a {
+    font-size: 16px;
+  }
+  .arrow {
+    display: none;
+  }
+  .hello-txt {
+    margin: 0;
+  }
+  .hello-txt h1 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .Pic {
+    margin: 0;
+  }
+  .glass-like {
+    width: 100%;
+  }
+  .glass-like button {
+    width: 100%;
+    max-width: 100%;
+  }
+  .body {
+    align-items: center;
+    justify-content: center;
+  }
+  .me-image {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about {
+    align-items: center;
+    justify-content: center;
+  }
+  .each-project {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .right-project {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    max-width: 100%;
+    background-color: transparent;
+  }
+  .each-project-two {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .lpt p {
+    width: 100%;
+    text-align: start;
+  }
+  .left-project-two {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .right-project-two {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    max-width: 100%;
+    background-color: transparent;
+  }
+  .right-project a img{
+    border-radius: 10px;
+  }
+  .right-project-two a img{
+    border-radius: 10px;
+  }
+  .card {
+    padding: 20px 10px;
+  }
+  .card-details h1 {
+    font-size: 20px;
+  }
+  .card-details p {
+    padding: 0;
+  }
+  .jobs h1 {
+    font-size: 20px;
+  }
+  header ul {
+    gap: 40px;
+  }
+  .icons {
+    padding-top: 30px;
+    gap: 40px;
+  }
+  .line-fig {
+    top: 10px;
+    left: 50px;
+  }
+  .line-react {
+    top: 13.5px;
+  }
+  .line-java {
+    top: 3px;
+  }
+  .line-css {
+    top: -13px;
+    left: -60px;
+  }
+}
+
+@media screen and (max-width: 637px) {
+  .all-card {
+    grid-template-columns: 1fr;
+  }
+  .about p{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .top-about h1 {
+    font-size: 20px;
+  }
+  .top-about p {
+    font-size: 12px;
+  }
+  .bottom-about p {
+    font-size: 13px;
+  }
+  .experience > h1 {
+    font-size: 25px;
+  }
+  .jobs h1 {
+    font-size: 15px;
+  }
+  .left-project h1 {
+    font-size: 20px;
+  }
+  .left-project-two h1 {
+    font-size: 20px;
+  }
+  .contact h1 {
+    font-size: 20px;
+  }
+  .contact{
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 426px) {
+  header ul{
+    gap: 15px;
+  }
+  .hello-txt h1{
+    font-size: 18px;
+  }
+  .box {
+    width: 250px;
+    height: 250px;
+  }
+  .glowing-box img {
+    width: 150px;
+    height: 160px;
+  }
+  .each-icon > div {
+    width: 50px;
+    height: 50px;
+  }
+  .each-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .line-fig {
+    top: 8px;
+    left: 70px;
+  }
+  .line-react {
+    top: 9px;
+    left: 23px;
+  }
+  .line-java {
+    top: -1.5px;
+    left: -20px;
+  }
+  .line-css {
+    position: relative;
+    top: -12px;
+    left: -70px;
+  }
+}
