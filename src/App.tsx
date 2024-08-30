@@ -7,10 +7,11 @@ import Projects from "./components/body/Projects";
 import Contact from "./components/body/Contact";
 import "./components/css/Body.css";
 import "./components/css/Responsiveness.css";
+import "./index.css";
 
 const App = () => {
   return (
-    <>
+    <div className="bg-container">
       <Header />
       <div className="bg-body">
         <Top />
@@ -20,7 +21,7 @@ const App = () => {
         <Projects />
         <Contact />
       </div>
-    </>
+    </div>
   );
 };
 

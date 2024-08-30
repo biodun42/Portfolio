@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: start;
   padding: 80px 100px 0 100px;
-  background-color: #130428;
 }
 .hello-txt {
   display: flex;
@@ -97,7 +96,6 @@ span {
   align-items: start;
   gap: 80px;
   padding: 100px 100px 80px 100px;
-  background-color: #130428;
 }
 .top-about {
   display: flex;
@@ -140,7 +138,6 @@ span {
 
 /* Experience */
 .experience {
-  background-color: #130428;
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
@@ -248,7 +245,6 @@ span {
 
 /* Skills */
 .jobs {
-  background-color: #130428;
   padding: 30px 100px 100px 100px;
   display: flex;
   flex-direction: column;
@@ -423,7 +419,6 @@ span {
 /* Projects */
 .project {
   width: 100%;
-  background-color: #130428;
   padding: 100px 100px 100px 100px;
   display: flex;
   flex-direction: column;
@@ -599,7 +594,6 @@ span {
 
 /* Contact */
 .contact {
-  background-color: #130428;
   padding: 100px 100px 100px 100px;
   display: flex;
   flex-direction: column;
